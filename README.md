@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Linear Regression Prediction Model for a Bike Sharing Company
+> Predicting Demand for Shared Bikes Using Multiple Linear Regression
 
 
 ## Table of Contents
@@ -11,42 +11,33 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Background: BoomBikes, a US bike-sharing provider, has faced significant revenue losses due to the COVID-19 pandemic. The company aims to develop a strategic plan to boost revenue post-lockdown by understanding the demand for shared bikes.
+- Business Problem: The goal is to predict the demand for shared bikes and understand the factors influencing it to devise strategies to meet demand and stand out from competitors.
+- Dataset: Daily bike demand data across the American market, including factors such as weather conditions, seasons, sales data etc.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Significant variables in predicting bike demand include temperature, weather conditions, seasons, and yearly trends.
+### Factors Intepretation:
+  - Positive Correlation:
+    - Temperature: Major factor with a 0.48 coefficient, indicating higher bike usage in warmer weather.
+    - The 'yr' variable, indicating years 2018 and 2019, is crucial for capturing the increasing popularity of bike-sharing services over the year.
+  - Negative Correlation:
+    - Humidity, Windspeed, Light Snow: These factors deter bike usage, reflecting lower sales in adverse weather conditions.
+    - Seasonal and Monthly Effects: The model effectively captures variations in demand across different times of the year.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
+- Jupyter Notebook
+- Libraries - Pandas, Matplot, Seaborn, Statsmodel, Scikit-Learn
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+
+- The project is based on a dataset provided by BoomBikes and utilizes concepts from multiple linear regression modeling.
+- Thanks to the faculty from IIT Bangalore and the Upgrad mentors
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by @rknhub - feel free to contact me!
